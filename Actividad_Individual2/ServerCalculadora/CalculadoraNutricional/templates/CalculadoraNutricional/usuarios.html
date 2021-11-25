@@ -1,0 +1,18 @@
+{% extends 'CalculadoraNutricional/layout.html' %}
+{% block content %}
+
+
+    <h3>Usuarios Registrados</h3>
+
+<table id ="tablaUsuarios" class="center">
+    <tr>
+        <th>Rut</th><th>Nombre</th><th>Apellido</th><th>Email</th>
+    </tr>
+    {% for usuario in data %}
+    <tr>
+        <td>{{usuario.rut}}</td><td>{{usuario.nombre}}</td><td>{{usuario.apellido}}</td><td>{{usuario.email}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

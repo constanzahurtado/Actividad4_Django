@@ -1,0 +1,43 @@
+
+  #tablaUsuarios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #tablaUsuarios  td{
+    text-align: center;
+  }
+
+  #tablaUsuarios  td, #tablaUsuarios th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+   
+  #tablaUsuarios  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(24, 24, 233);
+    color: white;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3{
+      text-align: center;
+  }
+
+  footer{
+    background-color: blue;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-top: 400px;
+    color: white;   
+}
